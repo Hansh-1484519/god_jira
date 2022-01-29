@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hansh-1484519/god_jira/issues"
   },
-  "homepage": "https://github.com/Hansh-1484519/god_jira#readme"
+  "homepage": "https://github.com/Hansh-1484519/god_jira#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.16.7"
+  }
 }

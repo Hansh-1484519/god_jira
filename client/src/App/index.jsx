@@ -1,8 +1,9 @@
 import React, { Fragment} from 'react';
 
-import Routes from './Routes'
 import NormalizeStyles from './NormalizeStyle'
-import BaseStyles from './BaseStyles'
+import Toast from './Toast';
+import BaseStyles from './BaseStyles';
+import Routes from './Routes';
 import './fontStyles.css';
 
 const App = () => {
@@ -10,8 +11,8 @@ const App = () => {
         <Fragment>
             <NormalizeStyles/>
             <BaseStyles/>
+            <Toast/>
             <Routes/>
-            <fontStyles/>
         </Fragment>
       
     );

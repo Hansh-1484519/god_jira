@@ -5,11 +5,16 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Avatar from '../shared/component/Avatar/Avatar';
+
+  // import history , project , authenticate and pageError component
 
 const Routes = () =>{
     <Switch>
-        <Route></Route>
-        <Route></Route>
+        <Link to = '/'>Home</Link>
+        <Route path = "/">
+            <Avatar/>
+        </Route>
         <Route></Route>
         <Route></Route>
         <Route></Route>
